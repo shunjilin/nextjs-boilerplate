@@ -1,0 +1,4 @@
+# next.js build
+.next
+# dependencies
+node_modules/
