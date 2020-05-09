@@ -1,3 +1,3 @@
 # Next.js Boilerplate
 
-Next.js, Typescript, ESLint, Prettier
+Next.js, Typescript, ESLint, Prettier, Tailwind CSS
