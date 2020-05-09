@@ -2,6 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-h1 {
-    @apply text-red-700;
+body {
+    @apply bg-blue-300;
 }
