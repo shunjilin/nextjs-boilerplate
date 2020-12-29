@@ -1,12 +1,9 @@
 import React from "react";
-import App from "next/app";
 import "../styles/index.css";
+import { AppProps } from "next/dist/next-server/lib/router/router";
 
-class MyApp extends App {
-  render() {
-    const { Component, pageProps } = this.props;
-    return <Component {...pageProps} />;
-  }
-}
+const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
+  return <Component {...pageProps} />;
+};
 
 export default MyApp;

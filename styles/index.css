@@ -1,7 +1,8 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@tailwind base;
 
 body {
-    @apply bg-blue-300;
+  @apply bg-blue-300;
 }
+
+@tailwind components;
+@tailwind utilities;
