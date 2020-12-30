@@ -1,8 +1,9 @@
+/* purgecss start ignore */
 @tailwind base;
+/* purgecss end ignore */
 
 body {
   @apply bg-blue-300;
 }
 
 @tailwind components;
-@tailwind utilities;
